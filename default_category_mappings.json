@@ -77,19 +77,19 @@
             "Eventarc",
             "Workflows"
         ],
-        "kubecost": {
+        "kubecost": [
             "cpuCost",
             "ramCost",
             "gpuCost"
-        },
+        ],
         "mongoatlas": [
             "Instance"
         ],
-        "opencost": {
+        "opencost": [
             "cpuCost",
             "ramCost",
             "gpuCost"
-        }
+        ]
     },
     "Containers": {
         "azure": [
@@ -298,17 +298,17 @@
             "Traffic Director",
             "Virtual Private Cloud"
         ],
-        "kubecost": {
+        "kubecost": [
             "networkCost",
             "loadBalancerCost"
-        },
+        ],
         "mongoatlas": [
             "Data Transfer"
         ],
-        "opencost": {
+        "opencost": [
             "networkCost",
             "loadBalancerCost"
-        },
+        ],
         "confluent": [
             "Kafka Network"
         ]
@@ -380,16 +380,16 @@
             "Cloud Storage for Firebase",
             "NetApp Volumes"
         ],
-        "kubecost": {
-            "vpCost"
-        }
+        "kubecost": [
+            "pvCost"
+        ],
         "mongoatlas": [
             "Atlas Cloud Backup Storage",
             "Atlas Storage"
         ],
-        "opencost": {
+        "opencost": [
             "pvCost"
-        }
+        ],
         "confluent": [
             "Kafka Storage"
         ]
